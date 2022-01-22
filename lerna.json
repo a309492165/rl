@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
-  "packages": [
-    "packages/*"
-  ],
-  "changelog": {
+	"version": "1.0.1",
+	"packages": [
+		"packages/*"
+	],
+	"changelog": {
 		"cacheDir": "",
 		"labels": {
 			"PR: Docs :memo:": ":memo: Documentation"
@@ -18,7 +18,7 @@
 			"message": "rl chore (release): publish"
 		}
 	},
-  "publishConfig": {
-    "access": "public" 
-  }
+	"publishConfig": {
+		"access": "public"
+	}
 }
