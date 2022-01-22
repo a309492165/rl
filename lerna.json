@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "packages": [
+    "packages/*"
+  ],
+  "changelog": {
+		"cacheDir": "",
+		"labels": {
+			"PR: Docs :memo:": ":memo: Documentation"
+		}
+	},
+	"command": {
+		"publish": {
+			"ignoreChanges": [
+				"ignored-file",
+				"/**/package-lock.json"
+			],
+			"message": "rl chore (release): publish"
+		}
+	},
+  "publishConfig": {
+    "access": "public" 
+  }
+}
