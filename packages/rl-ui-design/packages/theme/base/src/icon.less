@@ -1,0 +1,66 @@
+/*!
+* icon
+*/
+
+/*
+    修改ICONFONT需要注意的地方
+    一、更新 ./fonts 文件夹下的 .eot .svg .ttf .woff .woff2 文件
+    二、更新 _icons-variables 的版本
+    三、更新 _icons-font.less 文件 中的 @font-face 中的配置
+    四、更新 _icons-icons 中的图标定义
+
+*/
+
+@import "common/var";
+@import "fonts/iconfont.css";
+
+.@{prefix}-icon {
+    font-family:             'iconfont' !important;
+    font-size:               @-font-size-m;
+    font-style:              normal;
+    line-height:             1;
+    display:                 inline-block;
+    /* 更好的效果 =========== */
+    -webkit-font-smoothing:  antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+@keyframes loadingCircle {
+    to {
+	    transform: rotate(1turn);
+    }
+}
+
+.@{prefix}-icon--rotating {
+    animation: loadingCircle 1s linear infinite
+}
+
+
+.@{prefix}-icon-xs {
+    font-size: @-font-size-xs;
+}
+
+.@{prefix}-icon-s {
+    font-size: @-font-size-s;
+}
+
+.@{prefix}-icon-m {
+    font-size: @-font-size-m;
+}
+
+.@{prefix}-icon-l {
+    font-size: @-font-size-l;
+}
+
+.@{prefix}-icon-xl {
+    font-size: @-font-size-xl;
+}
+
+.@{prefix}-icon-xxl {
+    font-size: @-font-size-xxl;
+}
+
+.@{prefix}-icon-xxxl {
+    font-size: @-font-size-xxxl;
+}

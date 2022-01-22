@@ -1,7 +1,8 @@
 {
 	"version": "1.0.101",
 	"packages": [
-		"packages/*"
+		"packages/*",
+		"packages/@reallylife/*"
 	],
 	"changelog": {
 		"cacheDir": "",
